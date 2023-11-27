@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/c2d4fc76d1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     <div id="header">
+        <div class="container">
+            <nav>
+              <p><strong><span>P</span>oojaharini.</strong></p>
+               <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">My Works</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="headertext">
+            <p>Beginner in Web development</p>
+            <h2>Hi,I'm <span>Poojaharini</span><br>from India</h2>
+           
+        </div>
+     </div>
+     
+     <!-------about------->
+     <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="aboutcol1">
+                    <img src="portfoliopic/me.jpg">
+                </div>
+                <div class="aboutcol2">
+                    <h1 class="subtitle">About me</h1>
+                    <p>I am Poojaharini.I am an engineering student who is passionate about future. I am updating myself to acheive my goals. 
+                    </p>
+                    <div class="tabtitles">
+                        <p class="tablinks activelink" onclick="opentab('skills')">Skills</p>
+                        <p class="tablinks" onclick="opentab('experience')">Projects </p>
+                        <p class="tablinks" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tabcontents activetab" id="skills">
+                        <ul>
+                            <li><span>Frontend</span><br>html,css,javascript</li>
+                            <li><span>Backend</span><br>python</li>
+                            <li><span>Other</span><br>Communication skill and teamleading skill</li>
+                        </ul>
+                    </div>
+                    <div class="tabcontents" id="experience">
+                        <ul>
+                            <li><span>Cherish</span><br>Event organizing webpage</li>
+                            <li><span>Stopwatch</span><br>calculates time</li>
+                            <li><span>Tictactoe</span><br>game web application</li>
+                        </ul>
+                    </div>
+                    <div class="tabcontents" id="education">
+                        <ul>
+                            <li><span>Degree</span><br>Persuing Btech Information technology</li>
+                            <li><span>Nptel</span><br>Introduction to IOT</li>
+                            <li><span>Courses</span><br>CISCO cyber security</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+
+   <!---------services------->
+   <div id="services">
+     <div class="container">
+        <h1 class="subtitle">My Works</h1>
+        <div class="serviceslist">
+            <div>
+                <i class="fa-solid fa-code" style="color: #fcfcfc;"></i>
+                <h2>Cherish</h2>
+                <p>An event management website enhances customer convenience by offering online event booking and payment options. This feature not only saves customers time and effort but also streamlines the entire event management process for organizers.           
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios" style="color: #f5f5f5;"></i>
+                <h2>Stopwatch</h2>
+                <p>StopWatch is designed to be a portable, easy-to-use means of measuring execution time.Laboratory experiments and sports events like sprints are classic examples of its application.
+
+            </div>
+            <div>
+                <i class="fa-solid fa-crop" style="color: #e4e7ec;"></i>
+                <h2>Tictactoe</h2>
+                <p>A game in which one player draws Xs and another player draws Os inside a set of nine squares and each player tries to be the first to fill a row of squares with either Xs or Os
+            </div>
+        </div>
+     </div>
+   </div>
+   <!-----contact-->
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contactleft">
+                <h1 class="subtitle">Contact me</h1>
+                <p><i class="fa-solid fa-envelope-circle-check"></i>poojaharini467@gmail.com</p>
+                <p> <i class="fa-brands fa-linkedin"></i>Linkedin-Poojaharini K</p>
+                <div class="socialicons">
+                    <a href="poojaharini467@gmail.com"><i class="fa-solid fa-envelope-circle-check"></i></a>
+                    <a href="https://www.linkedin.com/in/poojaharini-k-b94a5a256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+
+            <div class="contactright">
+                <form action="">
+                    <input type="text" name="Name" id="" placeholder="your name" required>
+                    <input type="email" name="email" id="" placeholder="your email"required>
+                    <textarea name="message"  rows="6" placeholder="message"></textarea>
+                    <button type="submit"class="btnsub">submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+   </div>
+<script src="script.js"></script>
+
+
+
+</body>
+</html>
